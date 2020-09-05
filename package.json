@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "deploy": "gh-pages -d portfolio-v1"
+    "deploy": "gh-pages -d tempo-weather-web-app"
   },
   "repository": {
     "type": "git",
