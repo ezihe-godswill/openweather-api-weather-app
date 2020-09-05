@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    width: 100%;
+    min-height: 100vh;
+    height: 100%;
+    font-size: 1rem;
+    font-family: 'Montserrat', sans-serif;
+    background: linear-gradient(rgba(0,0,0,.2), rgba(0,0,0,.3)),
+                url(img/eberhard-grossgasteiger-jCL98LGaeoE-unsplash.jpg) center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.app-wrap {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 15px;
+}
+
+.header input {
+    width: 100%;
+    height: 50px;
+    width: 250px;
+    padding: 10px 15px;
+    border: none;
+    outline: none;
+    background-color: #ffffff;
+    border-radius: 10px;
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+.header input[type="submit"]{
+    margin: 2rem 0;
+    background: #333;
+    color: #fff;
+    transition: 400ms ease;
+}
+
+.header input:focus {
+    outline: none;
+    background: #fff;
+}
+
+.header input[type="submit"]:focus,
+.header input[type="submit"]:hover{
+    outline: none;
+    background: #111;
+    transform: scale(0.98);
+}
+
+main {
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.location .city {
+    color: #333;
+    font-size: 3rem;
+    font-weight: 400;
+    margin-bottom: 5px;
+}
+
+.location .date {
+    font-size: 1.6rem;
+}
+
+.current .temp {
+    color: #fff;
+    font-size: 10rem;
+    font-weight: 900;
+    margin: 10px auto;
+    text-shadow: 2px 0  10px rgba(0,0,0,0.4);
+    border: 2px solid #fff;
+    border-radius: 10px;
+    padding: 2rem;
+    margin: 2rem 0;
+}
+
+.current .weather {
+    color: #fff;
+    font-size: 3rem;
+    font-weight: 600;
+}
+
+.current .hi-low {
+    color: #fff;
+    font-size: 2.5rem;
+    font-weight: 500;
+}
