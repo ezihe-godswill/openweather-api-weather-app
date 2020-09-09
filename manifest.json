@@ -1,0 +1,51 @@
+{
+    "name" : "tempo",
+    "short_name": "tempo",
+    "start_url" : "./tempo-weather-web-app/index.html",
+    "icons" : [
+        {
+            "src" : "./tempo-weather-web-app/css/img/tempo_48.png",
+            "sizes" : "48x48",
+            "type" : "image/png"
+        },
+        {
+            "src" : "./tempo-weather-web-app/css/img/tempo_96.png",
+            "sizes" : "96x96",
+            "type" : "image/png"
+        },
+        {
+            "src" : "./tempo-weather-web-app/css/img/tempo_128.png",
+            "sizes" : "128x128",
+            "type" : "image/png"
+        },
+        {
+            "src" : "./tempo-weather-web-app/css/img/tempo_144.png",
+            "sizes" : "144x144",
+            "type" : "image/png"
+        },
+        {
+            "src" : "./tempo-weather-web-app/css/img/tempo_192.png",
+            "sizes" : "192x192",
+            "type" : "image/png"
+        },
+        {
+            "src" : "./tempo-weather-web-app/css/img/tempo_256.png",
+            "sizes" : "256x256",
+            "type" : "image/png"
+        },
+        {
+            "src" : "./tempo-weather-web-app/css/img/tempo_384.png",
+            "sizes" : "384x384",
+            "type" : "image/png"
+        },
+        {
+            "src" : "./tempo-weather-web-app/css/img/tempo_512.png",
+            "sizes" : "512x512",
+            "type" : "image/png"
+        }
+    ] ,
+    "background_color" : "#ffffff",
+    "theme_color" : "#ffffff",
+    "display" : "standalone",
+    "orientation" : "Portrait"
+}
