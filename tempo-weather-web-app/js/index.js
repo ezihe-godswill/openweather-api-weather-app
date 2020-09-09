@@ -40,11 +40,19 @@ window.addEventListener('load', () => {
     let searchBox = document.querySelector(".search-box");
     let button = document.querySelector(".button");
     
+    // searchBox.addEventListener('submit', (e) => {
+    //     e.preventDefault();
+    //     console.log(e.target.value);
+    // })
+
     button.addEventListener('click', (e)=> {
+
         fetch('https://api.openweathermap.org/data/2.5/weather?q='+searchBox.value+'&appid=d99763d07996d85ed9dfd4dd587bd5d8')
         .then(response => response.json())
         .then(data => {
-            console.log(data);
+            // console.log(data);
+            // console.log(searchBox. value)
+            // localStorage.setItem('city', searchBox.value);
     
             let city = document.querySelector('.location .city');
             city.innerHTML = `${data.name}, ${data.sys.country}`;
