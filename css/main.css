@@ -15,7 +15,7 @@ body {
     font-size: 1rem;
     font-family: 'Montserrat', sans-serif;
     background: linear-gradient(rgba(0,0,0,.2), rgba(0,0,0,.3)),
-                url(img/eberhard-grossgasteiger-jCL98LGaeoE-unsplash.jpg) center;
+                url(img/eberhard-grossgasteiger-jCL98LGaeoE-unsplash.jpg) right;
     background-size: cover;
     background-repeat: no-repeat;
 }
